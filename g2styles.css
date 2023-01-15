@@ -117,7 +117,7 @@ margin-bottom: 30px;
 .featuretittle .defaulttext{
     text-align: left;
 }
-.headtittle{
+.featuretittle .headtittle{
     font-weight: 700;
 font-size: 45px;
 color: #131313;
@@ -171,3 +171,102 @@ text-align: center;
 
 color: #FFFFFF;
 }
+/* facts */
+.facts{
+    margin-left: 182px;
+    
+}
+.facts .defaulttext{
+    text-align: left;
+    
+}
+.facts .headtittle{
+    border: none;
+    padding-left: 0;
+}
+/* achievements */
+
+.achievements{
+    display: flex;
+    justify-content: space-evenly;
+   margin: 100px 210px
+}
+.imgnum{
+    font-weight: 600;
+font-size: 45px;
+color: #424242;
+}
+.imgcap{
+    font-weight: 600;
+font-size: 20px;
+color: #727272;
+}
+
+.achibox{
+   text-align: center;
+   border: 1px solid #FF900E;
+border-radius: 8px;
+padding: 45px 35px;
+background: white ;
+    transition: background-color 2s ease-out 150ms ;
+}
+/* bonus hover animation */
+  
+  .achibox:hover {
+    background-color: #FF900E
+   
+  }
+/* bonus section */
+
+.bonus{
+    background-image: url(./images/bonus.jpg);
+    width: 50%;
+    text-align: center;
+    padding: 39px 210px;
+margin: 0 240px 100px 240px;
+}
+.bonus .headtittle{
+    color: whitesmoke;
+}
+#form{  font-weight: 400;
+    font-size: 20px;
+        width: 190px;
+        height: 63px;
+        border-radius: 5px;
+        border: none;
+        padding: 5px;
+       
+        
+}
+
+
+
+
+  /* 
+  sponsers */
+  .sponsers .headtittle{
+    text-align: center;
+    border: none;
+  }
+  .sponserlogo{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 240px 130px 240px;
+  }
+  .sponserlogos{
+    filter: grayscale(100);
+  }
+  /* footer */
+  .footer{
+    font-weight: 400;
+font-size: 20px;
+
+text-align: center;
+background: #FFF4E7;
+border-radius: 8px;
+padding: 39px 210px;
+margin: 0 240px 100px 240px;
+
+
+color: #424242;
+  }
